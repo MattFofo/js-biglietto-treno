@@ -1,0 +1,12 @@
+#ticket-price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    font-size: 4rem;
+}
+
+#ticket-price::after {
+    content: '\20AC';
+} 
