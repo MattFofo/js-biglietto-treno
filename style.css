@@ -7,6 +7,12 @@
     font-size: 4rem;
 }
 
+#ticket-price::before {
+    content: 'Prezzo Biglietto:';
+    font-size: 3rem;
+
+} 
+
 #ticket-price::after {
     content: '\20AC';
 } 

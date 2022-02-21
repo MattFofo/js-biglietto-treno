@@ -9,11 +9,11 @@ let element = document.getElementById("ticket-price");
 
 
 if (userAge < 18) {
-    element.innerText =  (KmPrice * KmRoute) - ((KmPrice * KmRoute) * 0.2);
+    element.innerHTML =  ((KmPrice * KmRoute) - ((KmPrice * KmRoute) * 0.2)).toFixed(2);
 
 }else if (userAge >= 65) {
-    element.innerText = (KmPrice * KmRoute) - ((KmPrice * KmRoute) * 0.4);
+    element.innerHTML = ((KmPrice * KmRoute) - ((KmPrice * KmRoute) * 0.4)).toFixed(2);
 
 }else if (18 >= userAge < 65) {
-    element.innerText =  (KmPrice * KmRoute);
+    element.innerHTML =  (KmPrice * KmRoute).toFixed(2);
 }    
