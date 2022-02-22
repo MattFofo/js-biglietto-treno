@@ -8,7 +8,7 @@
 }
 
 #ticket-price::before {
-    content: 'Prezzo Biglietto:';
+    content: 'Prezzo Biglietto: ';
     font-size: 3rem;
 
 } 
