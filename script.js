@@ -1,8 +1,8 @@
 const KmPrice = 0.21;
 
-let userAge = prompt('Età');
+let userAge = parseInt(prompt('Età'));
 
-let KmRoute = prompt('Km da percorrere');
+let KmRoute = parseInt(prompt('Km da percorrere'));
 
 let elementOutput = document.getElementById("ticket-price");
 
